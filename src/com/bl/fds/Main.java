@@ -47,6 +47,7 @@ public class Main {
 		int input = scan.nextInt();
 		switch (input) {
 			case 1:
+					addFoodItem();
 					break;
 			case 2:
 					Biryani biryani = new Biryani();
@@ -75,6 +76,21 @@ public class Main {
 					break;
 		}
 		
+		
+	}
+
+	private void addFoodItem() {
+		Scanner scan = new Scanner(System.in);
+		FoodItem foodItem = new FoodItem();
+		System.out.println("Enter food name");
+		//foodItem.se
+		System.out.println("select food test-> 1) Sweet \t 2)Spicy \t 3)Salty ");
+		scan.nextInt();
+		System.out.println("Select food Category ->1) STARTERS \t 2)MAINCOURSE \t 3)SWEETS \t 4)JUICES");
+		scan.nextInt();
+		System.out.println("Enter food type");
+		System.out.println("Enter food price");
+
 		
 	}
 
